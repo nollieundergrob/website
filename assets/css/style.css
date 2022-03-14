@@ -31,12 +31,6 @@
 }
 @font-face {
     font-family: "Montserrat";
-    src: url("../fonts/Montserrat-Italic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: 400;
-}
-@font-face {
-    font-family: "Montserrat";
     src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
     font-style: normal;
     font-weight: 500;
@@ -61,4 +55,88 @@ ol,li,ul
 *{
     padding: 0;
     margin: 0;
+}
+/* хедер */
+.logo
+{
+    width: 300px;
+}
+.header_wrapper
+{
+    padding-top: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+.menu_list
+{
+    display: flex;
+}
+.menu_link
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: white;
+text-decoration: none;
+
+}
+.container
+{
+    max-width: 1450px;
+    padding: 0px 15px;
+    margin: 0 auto;
+
+}
+.nav_header
+{
+    display: flex;
+    flex-direction: column  ;
+}
+/* секция */
+.page_section1
+{
+    background-image: url(../img/index/Intro_background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.picture_head
+{
+    margin: 0px 7px;
+}
+.phone_number
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 37px;
+color: #FFFFFF;
+text-decoration: none;
+text-align: end;
+}
+
+@media (max-width:1024px)
+{
+    .header_wrapper
+    {
+        font-size: 0px;
+    }
+    .phone_number
+    {
+        font-size: 18px;
+    }
+    .menu_link
+    {
+        font-size: 16px;
+    }
 }
