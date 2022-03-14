@@ -1,7 +1,7 @@
 /* Подключение шрифтов */
 @font-face {
     font-family: "Montserrat";
-    src: url("fonts/Montserrat-Regular.ttf\") format("truetype");
+    src: url("fonts/Montserrat-Regular.ttf") format("truetype");
 }
 /* Общие настройки страницы */
 ol,li,ul
