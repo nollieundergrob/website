@@ -113,8 +113,7 @@ text-decoration: none;
 {
     background-image: url(../img/index/Intro_background.png);
     background-repeat: no-repeat;
-    background-size: 100%;
-    padding-bottom: 50px;
+    background-size: 100%;  
 }
 .picture_head
 {
@@ -150,6 +149,7 @@ text-align: end;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding-top: 17px;
 }
 .box_item
 {
@@ -229,6 +229,7 @@ border-radius: 20px;
 {
     width: 300px;
     height: 90px;
+    padding-bottom: 50px;
 
 }
 .download
@@ -256,6 +257,59 @@ color: #FFFFFF;
 {
     padding-right: 50px;
 }
+/* Секция 2 */
+.section_title_text
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+.section_btn:hover
+{
+    filter: drop-shadow(0px 2px 22px #000000);
+}
+.section_btn
+{
+    transition: 0.3s;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+padding: 26px 41px 26px 36px;
+background-color: #A56492;
+border-radius: 20px;
+text-decoration: none;
+}
+.Yandex
+{
+    transform: scale(0.9);
+}
+.discription_text
+{
+    margin-bottom: 64px;
+}
+.discription_text
+{
+    margin-top: 64px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+
+color: #000000;
+}
+.section_flex
+{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
 @media (max-width:1440px)
 {
     .container
@@ -263,6 +317,13 @@ color: #FFFFFF;
         width: 1200px;
         width: 1100px;
     }
+}
+@media (min-width:1600px)
+{
+.container
+{
+    width: 1450px;
+}
 }
 @media (max-width:1024px)
 {
