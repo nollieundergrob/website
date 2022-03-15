@@ -271,6 +271,14 @@ color: #FFFFFF;
         width: 900px;
         width: 800px;
     }
+    .title_text
+    {
+    font-size: 18px;
+    }
+    .sub-title_text
+    {
+        font-size: 18px;
+    }
     .header_wrapper
     {
         font-size: 0px;
