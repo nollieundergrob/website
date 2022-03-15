@@ -92,7 +92,7 @@ text-decoration: none;
 }
 .container
 {
-    max-width: 1450px;
+    max-width: 1300px;
     padding: 0px 15px;
     margin: 0 auto;
 
@@ -124,9 +124,37 @@ color: #FFFFFF;
 text-decoration: none;
 text-align: end;
 }
-
+.row_item
+{
+    display: flex;
+}
+.box_item
+{
+    margin-top: 42px;
+}
+.row_text
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 29px;
+margin-left: 50px;
+color: #FFFFFF;
+}
+@media (max-width:1440px)
+{
+    .container
+    {
+        width: 1200px;
+    }
+}
 @media (max-width:1024px)
 {
+    .container
+    {
+        width: 900px;
+    }
     .header_wrapper
     {
         font-size: 0px;
