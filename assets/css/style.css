@@ -656,6 +656,65 @@ color: #000000;
     line-height: 73px;
     text-align: center;
     color: #000000; 
+    width: 320px;
+}
+.mar10px
+{
+    margin-right: 10px; 
+}
+.uppercase
+{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: solid 1px #A56492;
+}
+.formula
+{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.lowercase
+{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    padding: 15px;
+}
+.equal_marg
+{
+    margin-bottom: 20px;
+}
+.fmodule
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.equals_purple
+{
+    width: 80px;
+    height: 8px;
+    background: #A56492;
+    margin-bottom: 25px;
+}
+.pinkbox_object
+{
+    background: #A56492;
+    color: white;
+    font-family: 'Montserrat';
+font-style: normal;
+text-align: center;
+padding: 10px 13px;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+width: 140px;
+display: flex;
+justify-content: center;
 }
 /* Секция 9 */
 .title_section
@@ -741,6 +800,65 @@ text-align: center;
     display: flex;
     justify-content: center;
     text-align: center;
+}
+/* Секция 10  */
+.semibold_text
+{
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+}
+.formula_regular_text
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+}
+.quality_item
+{
+display: flex;
+width: 361px;
+align-items: center;
+}
+.formula_zp
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left_title_text
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+.p_formula
+{
+    margin-bottom: 30px;
+}
+.formula_title_text
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+}
+.row_formula
+{
+    display: flex;
+    align-items: center;
 }
 /* 13 Секция */
 .section13_width
