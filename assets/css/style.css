@@ -486,6 +486,7 @@ justify-content: center;
 /* Секция 5 */
 .row_button
 {
+    padding-top: 75px;
     display: flex;
     justify-content:space-between;
 }
@@ -644,6 +645,17 @@ color: #000000;
 .mar40px
 {
     margin-right: 40px;
+}
+/* Секция 8 */
+.biglabel
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: center;
+    color: #000000; 
 }
 /* Секция 9 */
 .title_section
