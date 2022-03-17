@@ -642,6 +642,11 @@ color: #000000;
 {
     border-bottom: 3px dashed #A56492;
 }
+.diagram_pic
+{
+    padding-top: 28px;
+    margin: 0 auto;
+}
 .mar40px
 {
     margin-right: 40px;
@@ -860,6 +865,48 @@ color: #000000;
     display: flex;
     align-items: center;
 }
+/* Секция 11 */
+.lower_row_formula
+{
+}
+.pictur_slow
+{
+    position: relative;
+    width: 900px;
+}
+.flex_formula
+{
+    display: flex;
+    align-items: flex-end;
+}
+/* Секция 12 */
+.main_title_text_excel
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: start;
+}
+.align_center_flex
+{
+    display: flex;
+    align-items: center;
+}
+.align_start_flex
+{
+    display: flex;
+    align-items: flex-start;
+}
+.Excel_text_container
+{
+    width:1100px;
+}
+.dwn_btn
+{
+    transform: scale(0.8);
+}
 /* 13 Секция */
 .section13_width
 {
@@ -905,6 +952,41 @@ font-size: 18px;
 line-height: 24px;
 color: #fff;
 text-align: center;
+}
+.mar30pxd
+{
+    margin-bottom: 30px;
+}
+/* Секция 14 */
+.edit_text_center
+{
+    text-align: center;
+}
+.vertical_wrapper
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row_buttontext_product
+{
+    justify-content: center;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: #FFFFFF;
+    width: 455px;
+    height: 80px;
+    background: #A56492;
+    border-radius: 20px;
+    border-style: none;
+    text-align: center;
+    word-wrap: break-word;
+    word-break: break-all;
+    transition: 0.3s;
 }
 /* Секция 21 */
 .lower_buttonboxlast
