@@ -1273,6 +1273,79 @@ font-size: 20px;
 line-height: 24px;
 
 color: #FFFFFF;
+
+}
+/* Карточки */
+.card_container
+{
+    max-width: 930px;
+    padding: 30px 15px 30px 40px;
+}
+.card_title_row
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 37px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: #000000;
+
+}
+.card_item_block
+{
+    width: 225px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+    
+}
+.card_title
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+padding: 10px 0px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+.title_text_row
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #000000;   
+}
+.card_text_row
+{
+    padding: 40px 0px ;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+text-align: center  ;
+color: #000000;
+
+}
+.card_block_row
+{
+    display: flex;
+    justify-content: space-between;
 }
 @media (max-width:1440px)
 {
